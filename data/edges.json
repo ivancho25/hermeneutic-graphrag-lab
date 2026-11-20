@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "project": "HermeneuticGraphRAG",
+    "version": "0.2",
+    "date": "2026-11-19",
+    "description": "Inter-space directed edges explicitly linking Space A (clinical vignette) to Space B (theoretical corpus). All edges are manually authored with argumentative justification and epistemic weight.",
+    "relation_types": {
+      "ILLUSTRATES": "The clinical passage exemplifies or embodies the theoretical concept.",
+      "APPLIES_CONCEPT": "The theoretical concept serves directly as an interpretive tool for the clinical passage.",
+      "CONTRADICTS": "The clinical passage stands in tension with or resists the theoretical claim.",
+      "NUANCES": "The clinical passage introduces an exception, boundary condition, or added complexity to the concept.",
+      "OPENS_QUESTION": "The clinical passage raises an interpretive question that the theoretical node leaves unresolved or answers only partially."
+    }
+  },
+  "edges": [
+    {
+      "id": "e01",
+      "source": "argo_26",
+      "target": "freud_10",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Clara describes Argo as 'the only thing left of a life that is gone.' This formulation illuminates the mechanism whereby the shadow of the object falls upon the ego—except here the free libido has been displaced onto a living companion animal that absorbs the cathexis of Walter and an entire lost life in Bristol.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e02",
+      "source": "argo_27",
+      "target": "freud_10",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Clara names Argo 'part of my mourning process' and 'the cure that keeps me from muttering to myself.' Argo occupies the structural place of the lost world (Walter, Bristol) within Clara's psychic economy, preventing a complete melancholic withdrawal into the ego.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e03",
+      "source": "argo_26",
+      "target": "freud_04",
+      "type": "OPENS_QUESTION",
+      "justification": "Freud distinguishes mourning (where the world becomes poor and empty) from melancholia (where the ego itself is impoverished). Clara describes both an impoverished world ('a life that is gone') and subjective depletion ('bleak financial situation', fraying ties). Which register structurally dominates here?",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e04",
+      "source": "argo_28",
+      "target": "freud_04",
+      "type": "OPENS_QUESTION",
+      "justification": "Clara's guilt—'I feel I am sacrificing him'—and her doubt over whether tethering Argo serves her own grief rather than his welfare could point toward melancholic lowering of self-regard. Yet the question remains open: is this melancholic self-reproach or genuine ethical reflection on non-human autonomy?",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e05",
+      "source": "argo_03",
+      "target": "freud_01",
+      "type": "ILLUSTRATES",
+      "justification": "The compulsive muttering symptom emerges during Walter's decline under the exact conditions Freud identifies as triggers for mourning or melancholia: progressive loss of a loved person, domestic confinement, and romantic breakup. The symptom marks the inaugural psychic distress that Argo is brought in to regulate.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e06",
+      "source": "argo_12",
+      "target": "freud_05",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Walter's death initiates Freudian reality-testing: reality demands that libido be withdrawn bit by bit from the lost object. For the case, this raises the question of whether piecemeal decathexis proceeded normally or was rerouted onto Argo.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e07",
+      "source": "argo_13",
+      "target": "freud_06",
+      "type": "OPENS_QUESTION",
+      "justification": "Clara, Walter, and Argo pass together through Walter's final night. Freud holds that mourning ends when libido is detached and the ego becomes free again. Did Argo's co-presence at the inaugural scene of death facilitate the work of mourning, or did he absorb the cathexis meant to be relinquished?",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e08",
+      "source": "argo_03",
+      "target": "freud_07",
+      "type": "OPENS_QUESTION",
+      "justification": "Freud contrasts conscious loss in mourning with melancholia, where the subject knows whom they lost but not what they lost in them. Clara's uncontrollable muttering suggests an unnameable surplus loss—not only Walter as interlocutor, but partnership, mobility, and future family. How conscious are the dimensions of her loss?",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e09",
+      "source": "argo_02",
+      "target": "freud_13",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Clara's 2019 situation condenses simultaneous losses: confinement, breakup with Julian, and family pressure from cousins. Freud notes that threats of object-loss bring latent ambivalence into the open—conditions sharpened here by caregiving entrapment.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e10",
+      "source": "argo_03",
+      "target": "freud_13",
+      "type": "ILLUSTRATES",
+      "justification": "Clara describes her father as 'bitter, resentful, and often hateful' while simultaneously caring for him with unwavering daily devotion. This coexistence of tender care and acute frustration exemplifies the situational ambivalence Freud identifies as a precondition for melancholic conflict.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e11",
+      "source": "argo_14",
+      "target": "freud_13",
+      "type": "ILLUSTRATES",
+      "justification": "The failed attempt to reconcile with Julian—who 'never cared for Argo'—adds a secondary layer of ambivalence: romantic rupture becomes entangled with Julian's rejection of the dog embodying Clara's caregiving and mourning period.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e12",
+      "source": "argo_21",
+      "target": "freud_07",
+      "type": "ILLUSTRATES",
+      "justification": "During Argo's forty-eight-hour disappearances across the moor, Clara can neither sleep nor eat. This acute inhibition mirrors the absorptive economy of bereavement, showing that Argo has acquired the status of an object whose threatened loss reactivates the entire mourning apparatus.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e13",
+      "source": "argo_28",
+      "target": "freud_13",
+      "type": "OPENS_QUESTION",
+      "justification": "'I feel I am sacrificing him.' Clara's guilt opens an unresolved question regarding ambivalence within guardianship itself: does she tether Argo out of love for his survival, or out of dread of her own psychic collapse without him?",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e14",
+      "source": "argo_09",
+      "target": "theory_05",
+      "type": "ILLUSTRATES",
+      "justification": "Argo wakes Clara with low barks whenever Walter stirs at night, allowing her to surrender to sleep. This tactile, sensorimotor mediation between internal hypervigilance and external caregiving demands directly exemplifies Winnicott's living transitional object in adulthood.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e15",
+      "source": "argo_10",
+      "target": "theory_05",
+      "type": "APPLIES_CONCEPT",
+      "justification": "'There were two of us now: Argo and I.' Argo furnishes an intermediate transitional zone between crushing solitary caregiving and lost human partnership, making an otherwise unbearable reality habitable.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e16",
+      "source": "argo_27",
+      "target": "theory_06",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Clara explicitly names Argo 'part of my mental stability.' In Kohutian terms, Argo functions as a vital selfobject sustaining self-cohesion, vigour, and continuity across cascading biographical ruptures.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e17",
+      "source": "argo_21",
+      "target": "theory_06",
+      "type": "ILLUSTRATES",
+      "justification": "Inability to sleep or eat when Argo vanishes, followed by overwhelming relief upon his return, directly illustrates Kohut's thesis: temporary loss of the selfobject precipitates acute fragmentation of defensive cohesion, while reunion restores homeostasis.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e18",
+      "source": "argo_21",
+      "target": "theory_13",
+      "type": "ILLUSTRATES",
+      "justification": "Clara's insomnia and loss of appetite during Argo's roaming episodes exemplify sympathetic hyperarousal and autonomic dysregulation triggered by the sudden absence of a co-regulating companion animal.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e19",
+      "source": "argo_03",
+      "target": "theory_11",
+      "type": "ILLUSTRATES",
+      "justification": "Clara's muttering emerges in the absence of institutional or familial support for her caregiving confinement and unmourned breakup. Doka's disenfranchised grief captures this exact split between private collapse and external demands for silent endurance.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e20",
+      "source": "argo_04",
+      "target": "theory_11",
+      "type": "ILLUSTRATES",
+      "justification": "Disguising uncontrollable street muttering behind unplugged earphones and a pulled-up scarf concretely manifests the shame of disenfranchised grief: unacknowledged distress overflows into public space yet must be hidden as illegitimate.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e21",
+      "source": "argo_26",
+      "target": "theory_04",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Argo operates for Clara as a living surface of displacement through which grief for Walter and her vanished Bristol life is mediated—paralleling Freud's elaboration of loss and mortality through translating Bonaparte's Topsy.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e22",
+      "source": "argo_07",
+      "target": "theory_02",
+      "type": "NUANCES",
+      "justification": "Promising to take Argo across wide, unknown horizons—and vowing to be better than Odysseus—idealizes the bond at its origin. Read alongside his subsequent tethering on a long lead, this promise nuances Freud's claim of purely unambivalent human-canine affection.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e23",
+      "source": "argo_25",
+      "target": "theory_03",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Clara's decision to restrict Argo can be interrogated through Marie Bonaparte's lens: protective custody may simultaneously mask the guardian's narcissistic need for control and terror of losing an indispensable object.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e24",
+      "source": "argo_28",
+      "target": "theory_03",
+      "type": "ILLUSTRATES",
+      "justification": "'I feel I am sacrificing him.' Clara lucidly confronts the possibility that her protective lead serves her own psychic survival at the expense of Argo's canine autonomy—illustrating Bonaparte's thesis on irreducible ambivalence in animal guardianship.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e25",
+      "source": "argo_26",
+      "target": "theory_09",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Calling Argo 'the only thing left' of her life with Walter illuminates Lacanian non-substitutability: Argo is irreplaceable not as a generic pet, but as the sole surviving witness to the relational position Clara occupied in Bristol.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e26",
+      "source": "argo_27",
+      "target": "theory_15",
+      "type": "OPENS_QUESTION",
+      "justification": "Nearly three years after Walter's death, Clara describes Argo as an active part of her mourning process. Under the continuing bonds paradigm, does Argo sustain a healthy reorganized tie to Walter, or does reliance on his physical presence forestall psychic internalization?",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e27",
+      "source": "argo_12",
+      "target": "theory_08",
+      "type": "APPLIES_CONCEPT",
+      "justification": "Walter's death at home in near-total isolation—witnessed only by Clara, Argo, and brief district-nurse visits, without collective rites—corresponds to Lacan's hole in the Real awaiting Symbolic suture.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e28",
+      "source": "argo_15",
+      "target": "theory_11",
+      "type": "ILLUSTRATES",
+      "justification": "Clara's current precarity on Dartmoor—dried-up archival work, financial strain, fraying host relations—constitutes the social vacuum of disenfranchised grief, forcing her bereavement to unfold without communal recognition.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e29",
+      "source": "argo_13",
+      "target": "theory_19",
+      "type": "OPENS_QUESTION",
+      "justification": "Having cohabited closely with Walter for three years and shared his final night, did Argo undergo his own canine bereavement after Walter's death—and how might interspecies grief have deepened his subsequent attachment to Clara?",
+      "created_by": "manual",
+      "weight": "low"
+    },
+    {
+      "id": "e30",
+      "source": "argo_22",
+      "target": "theory_16",
+      "type": "OPENS_QUESTION",
+      "justification": "Argo's confinement begins abruptly after the neighbour's poison warning, imposed by external threat without transitional ritual. Does this lack of Symbolic mediation explain why the restriction remains psychically unintegrated and guilt-ridden for Clara?",
+      "created_by": "manual",
+      "weight": "low"
+    },
+    {
+      "id": "e31",
+      "source": "argo_05",
+      "target": "theory_07",
+      "type": "ILLUSTRATES",
+      "justification": "Clara's deliberate decision to adopt a dog 'to ease the loneliness and drain this relentless need to speak' exemplifies Bowlby's attachment-seeking behaviour: establishing a safe haven from which to endure caregiving strain.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e32",
+      "source": "argo_23",
+      "target": "theory_15",
+      "type": "NUANCES",
+      "justification": "Walking Argo exclusively on a long lead—an anomaly on the moor—translates grief management into physical retention. Whereas continuing bonds emphasize psychic internalization, physical tethering nuances whether Clara is elaborating loss or holding onto its last living anchor.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e33",
+      "source": "argo_26",
+      "target": "freud_06",
+      "type": "CONTRADICTS",
+      "justification": "Freud posits that completed mourning leaves the ego 'free and uninhibited again' once libido is detached. Nearly three years after Walter's death, Clara experiences Argo as indispensable—'the only thing left of a life that is gone'—contradicting classical resolution via full decathexis.",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e34",
+      "source": "argo_26",
+      "target": "theory_15",
+      "type": "OPENS_QUESTION",
+      "justification": "Set directly beside e33 (freud_06), Clara's reliance on Argo as 'the only thing left' of her Bristol life stages a metapsychological clash: is this an unfinished Freudian decathexis, or a legitimate continuing bond mediated through a multispecies witness?",
+      "created_by": "manual",
+      "weight": "high"
+    },
+    {
+      "id": "e35",
+      "source": "argo_08",
+      "target": "theory_02",
+      "type": "ILLUSTRATES",
+      "justification": "'The puppy was a sudden light.' Clara's inaugural memory of Argo's effortlessly wagging tail embodies the unambivalent warmth Freud attributed to canine affection, standing in stark relief against Walter's bitterness and Julian's departure.",
+      "created_by": "manual",
+      "weight": "medium"
+    },
+    {
+      "id": "e36",
+      "source": "argo_11",
+      "target": "theory_10",
+      "type": "ILLUSTRATES",
+      "justification": "A twenty-kilo boisterous Lurcher sharing a small flat with frail Walter for three years without ever knocking him over illustrates the non-pathological, self-regulating stabilizing role of animals within multispecies kinship.",
+      "created_by": "manual",
+      "weight": "medium"
+    }
+  ]
+}

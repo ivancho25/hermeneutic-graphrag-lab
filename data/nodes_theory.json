@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "project": "HermeneuticGraphRAG",
+    "version": "0.2",
+    "date": "2026-11-19",
+    "document": "Psychoanalysis, Mourning, and Companion Animals",
+    "author": "Complementary Theoretical Synthesis (LLM-assisted literature review)",
+    "description": "Complementary theoretical framework nodes (Space B). Chunked by thematic section and conceptual unit.",
+    "graph_role": "complementary_theoretical_framework",
+    "epistemic_note": "Treated provisionally as a verified secondary synthesis for methodological prototyping; dialogues with and challenges classical Freudian mourning theory."
+  },
+  "nodes": [
+    {
+      "id": "theory_01",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "The loss of a companion animal constitutes one of the most intense yet paradoxically silenced experiences of bereavement in contemporary society. For decades, classical psychoanalysis maintained a relative silence regarding the role that non-human animals play in the libidinal economy and the formations of the unconscious.",
+      "tags": ["CONCEPT_ANIMAL_BOND", "CONCEPT_DISENFRANCHISED_GRIEF"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "contextualize",
+        "section": "Introduction",
+        "key_concepts": ["silenced grief", "libidinal economy", "human-animal bond"],
+        "notes": "Establishes the foundational premise of the complementary corpus: grief over companion animals is psychically profound yet socially and theoretically marginalized."
+      }
+    },
+    {
+      "id": "theory_02",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Freud observed that his chow Jofi possessed a singular sensitivity to the emotional states of his patients. For Freud, a dog's affection represented a form of love free of ambivalence—an unquestioned solidarity and instinctual directness contrasting sharply with human relationships. Unlike interpersonal bonds, constitutively traversed by an inescapable mixture of love and hate, Freud perceived in the animal a relational purity devoid of hidden hostility.",
+      "tags": ["CONCEPT_ANIMAL_BOND", "CONCEPT_AMBIVALENCE"],
+      "metadata": {
+        "status": "historical_reference",
+        "argumentative_function": "contextualize",
+        "section": "Historical Foundations: Freud and Bonaparte",
+        "key_concepts": ["unambivalent love", "instinctual directness", "Jofi"],
+        "notes": "Articulates Freud's thesis of unambivalent affection toward dogs, setting up an explicit theoretical tension with Marie Bonaparte's critique and with clinical cases involving protective control."
+      }
+    },
+    {
+      "id": "theory_03",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Marie Bonaparte argued that ambivalence is irreducible and inescapable, even in attachments to domestic animals. Love for a companion animal remains saturated with the human guardian's narcissistic demands, need for control, and latent dread before the absolute dependency of a vulnerable creature. Idealization of the animal frequently masks split-off hostilities and anxieties that the subject cannot tolerate within human relationships.",
+      "tags": ["CONCEPT_AMBIVALENCE", "CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "question",
+        "section": "Historical Foundations: Freud and Bonaparte",
+        "key_concepts": ["irreducible ambivalence", "idealization", "split-off hostility", "narcissistic control"],
+        "notes": "Direct theoretical counterpoint to Freud (theory_02): Bonaparte exposes latent narcissism, control, and ambivalence beneath protective devotion toward animals."
+      }
+    },
+    {
+      "id": "theory_04",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Freud's translation of Marie Bonaparte's Topsy operated as a mechanism of anticipatory mourning. Freud was not merely translating the story of a dog's illness and recovery; through displacement, he was working through his own confrontation with bodily decay, exile, and mortality. The animal narrative served as a space of sublimation where existential dread and grief could be mediated indirectly.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_ANIMAL_BOND", "CONCEPT_OBJECT"],
+      "metadata": {
+        "status": "historical_reference",
+        "argumentative_function": "illustrate",
+        "section": "Topsy, Translation, and Anticipatory Mourning",
+        "key_concepts": ["anticipatory mourning", "displacement", "sublimation", "animal as mediator"],
+        "notes": "Conceptualizes the companion animal as a mediating surface onto which unassimilated human grief and mortality anxiety can be displaced and worked through."
+      }
+    },
+    {
+      "id": "theory_05",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "In adulthood, companion animals function clinically and metapsychologically as living transitional objects. A dog or cat offers a reliable, consistent, tactile presence mediating between the subject's internal anxieties and the demands of external reality. Sharing the human guardian's sensorimotor and affective environment, the animal responds to non-discursive cues, vocal cadence, and muscular tension.",
+      "tags": ["CONCEPT_OBJECT", "CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "define",
+        "section": "Relational Dynamics: Transitional Object and Selfobject",
+        "key_concepts": ["living transitional object", "tactile co-presence", "anxiety regulation", "Winnicott"],
+        "notes": "Extends Winnicott's transitional space into adult caregiving and bereavement: the animal buffers internal dread against external strain."
+      }
+    },
+    {
+      "id": "theory_06",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "From the standpoint of Kohut's Self Psychology, the companion animal functions as a vital selfobject. Animals fulfill archaic needs for mirroring and idealized merger, offering continuous affirmation of the subject's worth and sustaining the cohesion, vigour, and harmony of the self. Consequently, when the animal vanishes or dies, the bereaved does not merely lose a companion, but suffers an acute fragmentation of their defensive architecture.",
+      "tags": ["CONCEPT_OBJECT", "CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "define",
+        "section": "Relational Dynamics: Transitional Object and Selfobject",
+        "key_concepts": ["selfobject", "mirroring", "self-cohesion", "fragmentation", "Kohut"],
+        "notes": "Frames the companion animal as a structural stabilizer of the self whose absence triggers acute psychosomatic and psychic dysregulation."
+      }
+    },
+    {
+      "id": "theory_07",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Companion animals operate as primary attachment figures, providing both a secure base from which to engage daily life and a safe haven to return to under distress. Rupture or threatened rupture of this bond activates evolutionary responses of protest, despair, and disorganization—symptomatology clinically indistinguishable from the loss of a parent, partner, or child.",
+      "tags": ["CONCEPT_ANIMAL_BOND", "CONCEPT_MOURNING"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "argue",
+        "section": "Relational Dynamics: Transitional Object and Selfobject",
+        "key_concepts": ["attachment figure", "secure base", "safe haven", "separation protest", "Bowlby"],
+        "notes": "Grounds human-animal bonds in Bowlby's attachment theory, legitimizing separation panic and grief intensity without reducing them to neurotic pathology."
+      }
+    },
+    {
+      "id": "theory_08",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Lacan maintains that authentic mourning is triggered by the loss of one for whom we unknowingly constituted a lack. Significant loss tears the veil of the Imaginary register and confronts the subject with a hole in the Real. For Lacan, this rupture in the Real issues an urgent summons to the Symbolic order—demanding language, rites, and signifiers to border and suture the void.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_ANXIETY", "CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "explain",
+        "section": "Mourning and the Hole in the Real: Lacanian Perspective",
+        "key_concepts": ["hole in the Real", "Imaginary register", "Symbolic suture", "Lacan", "rites"],
+        "notes": "Introduces the Lacanian topology of mourning: when death occurs without collective Symbolic rites, the hole in the Real remains unsutured."
+      }
+    },
+    {
+      "id": "theory_09",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Lacanian psychoanalysis underscores that real loss is strictly non-substitutable, because what vanishes is the unique position the mourner occupied in the relational triad with that being. When bystanders hastily advise replacing a lost companion, they commit an epistemological violence—treating a singular relational anchor as a fungible commodity in the Imaginary economy.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_DISENFRANCHISED_GRIEF", "CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "argue",
+        "section": "Mourning and the Hole in the Real: Lacanian Perspective",
+        "key_concepts": ["irreplaceability", "epistemological violence", "non-fungibility", "subjective position"],
+        "notes": "Explains why a specific animal witness to an earlier human bereavement becomes irreducibly singular rather than an interchangeable pet."
+      }
+    },
+    {
+      "id": "theory_10",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Companion animals have transcended purely instrumental roles to become full members of multispecies families. Anthropomorphism here is not a marker of regressive pathology, but a complex mode of relationality rooted in caregiving drives and biophilic affiliation. Within strained households, the animal performs vital stabilizing functions: bridging distanced family members, absorbing domestic tension, and mitigating isolation.",
+      "tags": ["CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "legitimize",
+        "section": "Anthrozoology and Family System Regulation",
+        "key_concepts": ["multispecies family", "anthropomorphism", "biophilia", "systemic stabilization"],
+        "notes": "De-pathologizes intense adult reliance on a companion animal during family caregiving crises by framing it as systemic regulation within a multispecies household."
+      }
+    },
+    {
+      "id": "theory_11",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Western modernity largely lacks validated institutional frameworks, shared narratives, and rites of passage for mourning invisible caregiving burdens or non-human bonds. This deficit produces what Kenneth J. Doka termed disenfranchised grief: losses that are intrapsychically devastating yet socially unacknowledged. The mourner is trapped in violent dissonance—their inner world has collapsed while the surrounding environment demands seamless normalcy.",
+      "tags": ["CONCEPT_DISENFRANCHISED_GRIEF"],
+      "metadata": {
+        "status": "definition",
+        "argumentative_function": "define",
+        "section": "Disenfranchised Grief",
+        "key_concepts": ["disenfranchised grief", "Doka", "social dissonance", "absence of ritual"],
+        "notes": "Core definition of disenfranchised grief, illuminating symptoms that arise when prolonged caregiving strain and bereavement unfold in social invisibility."
+      }
+    },
+    {
+      "id": "theory_12",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Social disenfranchisement operates as a repressive mandate, implicitly signalling to the mourner that their distress is disproportionate, immature, or shameful. Rather than diminishing pain, invalidation compounds primary grief with secondary layers of neurotic guilt and public shame. Forced into secrecy and isolation, the subject's normative work of mourning becomes obstructed.",
+      "tags": ["CONCEPT_DISENFRANCHISED_GRIEF", "CONCEPT_MOURNING"],
+      "metadata": {
+        "status": "mechanism_description",
+        "argumentative_function": "explain",
+        "section": "Disenfranchised Grief",
+        "key_concepts": ["neurotic guilt", "shame", "obstructed mourning", "social isolation"],
+        "notes": "Specifies the pathogenic mechanism of disenfranchisement: shame and secrecy actively block symbolic elaboration of loss."
+      }
+    },
+    {
+      "id": "theory_13",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Because the companion animal operates as a co-present physiological regulator—modulating heart rate, vagal tone, and oxytocin through touch and shared routines—its sudden absence violently perturbs the autonomic nervous system. Sympathetic hyperarousal ensues, manifesting somatically through insomnia, loss of appetite, tachycardia, acute restlessness, and cognitive exhaustion.",
+      "tags": ["CONCEPT_DISENFRANCHISED_GRIEF", "CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "argue",
+        "section": "The Psychosomatics of Grief",
+        "key_concepts": ["somatic co-regulation", "autonomic dysregulation", "sympathetic hyperarousal", "insomnia and anorexia"],
+        "notes": "Provides a neurophysiological and psychosomatic account of acute bodily distress (inability to sleep or eat) during an animal's disappearance or loss."
+      }
+    },
+    {
+      "id": "theory_14",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Guardians of companion animals routinely bear unilateral agency over life-and-death Conditions—whether deciding on medical euthanasia, confinement, or exposure to environmental risk. Carrying sovereign responsibility over a dependent creature's survival places an immense burden on the psychic apparatus, frequently precipitating moral injury and paralyzing guilt.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_ANIMAL_BOND"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "contextualize",
+        "section": "Custodial Agency and Moral Injury",
+        "key_concepts": ["custodial agency", "moral injury", "sovereign responsibility", "ethical guilt"],
+        "notes": "Contextualizes guardian guilt around survival and quality-of-life decisions as an ethical burden inherent to asymmetrical guardianship rather than purely melancholic self-reproach."
+      }
+    },
+    {
+      "id": "theory_15",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Historically, the classical Freudian paradigm held that successful mourning requires complete withdrawal of libido from the lost object so that the ego may become free again. Contemporary bereavement theory has substantially revised this mandate through the continuing bonds model (Klass, Silverman, & Nickman), arguing that healthy adaptation involves reorganizing and internalizing the attachment rather than severing it.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_OBJECT"],
+      "metadata": {
+        "status": "theoretical_revision",
+        "argumentative_function": "question",
+        "section": "Continuing Bonds and Psychic Reorganization",
+        "key_concepts": ["continuing bonds", "internalization", "relational reorganization", "critique of decathexis"],
+        "notes": "Crucial metapsychological pivot challenging freud_06: ongoing attachment to a living bridge-object may represent either adaptive continuing bonds or defensive avoidance of internalization."
+      }
+    },
+    {
+      "id": "theory_16",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Ritual possesses a decisive metapsychological function: it acts as a Symbolic suture bordering the void opened in the Real by loss or abrupt transition. Memorialization and transitional rites—whether elegiac writing, farewell ceremonies, or deliberate thresholds—enable psychic integration of changes otherwise experienced as raw external imposition.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_DISENFRANCHISED_GRIEF"],
+      "metadata": {
+        "status": "clinical_proposal",
+        "argumentative_function": "propose",
+        "section": "The Structuring Function of Rituals",
+        "key_concepts": ["ritual", "Symbolic suture", "memorialization", "psychic integration"],
+        "notes": "Highlights why losses or abrupt restrictions imposed by external threat—without symbolic ritualization—resist psychic integration."
+      }
+    },
+    {
+      "id": "theory_17",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Clinical work with complex human-animal attachment and bereavement requires explicitly validating the bond as a primary relational tie. Therapeutic tasks include legitimizing disenfranchised pain, deconstructing guardian guilt by distinguishing protective care from narcissistic harm, and reconstructing a coherent narrative of the shared life transition.",
+      "tags": ["CONCEPT_INTERVENTION", "CONCEPT_DISENFRANCHISED_GRIEF"],
+      "metadata": {
+        "status": "clinical_proposal",
+        "argumentative_function": "propose",
+        "section": "Clinical Approach",
+        "key_concepts": ["validation", "guilt deconstruction", "narrative reconstruction", "therapeutic framing"],
+        "notes": "Outlines clinical orientation, particularly the differentiation between compassionate custodial responsibility and destructive self-accusation."
+      }
+    },
+    {
+      "id": "theory_18",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Across the lifespan, companion animals frequently serve as a primary site where subjects confront vulnerability, finitude, and ethical responsibility toward radical alterity. Far from being mere surrogates for absent humans, animals confront the guardian with real ethical dilemmas concerning autonomy, domestication, and care.",
+      "tags": ["CONCEPT_ANIMAL_BOND", "CONCEPT_MOURNING"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "argue",
+        "section": "Alterity, Finitude, and Ethical Responsibility",
+        "key_concepts": ["finitude", "alterity", "ethical responsibility", "autonomy vs care"],
+        "notes": "Frames conflicts over canine freedom versus safety as genuine ethical encounters with non-human alterity."
+      }
+    },
+    {
+      "id": "theory_19",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Dogs form durable attachment bonds with cohabiting humans and fellow animals, displaying recognizable grief-like behaviours following a household death: searching resting spots, lethargy, distress vocalizations, and heightened vigilance toward surviving family members. Within multispecies households, bereavement is therefore an intersubjective field shared across species.",
+      "tags": ["CONCEPT_ANIMAL_BOND", "CONCEPT_MOURNING"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "expand",
+        "section": "Interspecies Bereavement",
+        "key_concepts": ["canine grief", "searching behaviour", "multispecies bereavement", "surviving companion"],
+        "notes": "Introduces the animal's own potential grief response after losing a cohabiting elder, expanding mourning from a solo intrapsychic event to a shared relational field."
+      }
+    },
+    {
+      "id": "theory_20",
+      "doc": "psychoanalysis-mourning-companion-animals",
+      "text": "Ultimately, the human-animal bond offers psychoanalysis fertile ground for rethinking object-relations, signal anxiety, and bereavement. Companion animals simultaneously operate as repositories of displaced cathexis, homeostatic co-regulators, living transitional objects, and selfobjects sustaining narcissistic cohesion amid cumulative loss.",
+      "tags": ["CONCEPT_ANIMAL_BOND", "CONCEPT_OBJECT", "CONCEPT_ANXIETY"],
+      "metadata": {
+        "status": "synthesis",
+        "argumentative_function": "synthesize",
+        "section": "Conclusion",
+        "key_concepts": ["object-relations", "displaced cathexis", "homeostatic regulation", "narcissistic cohesion"],
+        "notes": "Closing theoretical synthesis condensing the multiple simultaneous psychic functions a companion animal may sustain."
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "project": "HermeneuticGraphRAG",
+    "version": "0.2",
+    "date": "2026-11-19",
+    "document": "Mourning and Melancholia",
+    "author": "Sigmund Freud",
+    "source": "Collected Papers, Vol. IV (1925, trans. Joan Riviere; standardized metapsychological terminology)",
+    "year": "1917 [1915]",
+    "description": "Primary theoretical framework nodes (Space B). Chunked by conceptual and argumentative unit.",
+    "graph_role": "primary_theoretical_framework"
+  },
+  "nodes": [
+    {
+      "id": "freud_01",
+      "doc": "mourning-and-melancholia",
+      "text": "Mourning is regularly the reaction to the loss of a loved person, or to the loss of some abstraction which has taken the place of one, such as one's country, liberty, an ideal, and so on. In some people the same influences produce melancholia instead of mourning and we consequently suspect them of a pathological disposition.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "definition",
+        "argumentative_function": "define",
+        "key_concepts": ["loss", "loved object", "pathological disposition"],
+        "notes": "Inaugural definition of both states. Establishes that mourning and melancholia share the same triggering cause while diverging in structural disposition. Foundational reference node for the central working hypothesis."
+      }
+    },
+    {
+      "id": "freud_02",
+      "doc": "mourning-and-melancholia",
+      "text": "Although mourning involves grave departures from the normal attitude to life, it never occurs to us to regard it as a pathological condition and to refer it to medical treatment. We rely on its being overcome after a certain lapse of time, and we look upon any interference with it as useless or even harmful.",
+      "tags": ["CONCEPT_MOURNING"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "contextualize",
+        "key_concepts": ["normal mourning", "non-pathological status", "temporal process"],
+        "notes": "Normal mourning is non-pathological despite severe behavioural deviations. Freud legitimizes grief as a necessary temporal labor, contrasting with social pressures that rush or disenfranchise bereavement."
+      }
+    },
+    {
+      "id": "freud_03",
+      "doc": "mourning-and-melancholia",
+      "text": "The distinguishing mental features of melancholia are a profoundly painful dejection, cessation of interest in the outside world, loss of the capacity to love, inhibition of all activity, and a lowering of the self-regarding feelings to a degree that finds utterance in self-reproaches and self-revilings.",
+      "tags": ["CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "definition",
+        "argumentative_function": "define",
+        "key_concepts": ["self-regard", "self-reproach", "inhibition", "loss of interest in the world"],
+        "notes": "Clinical picture of melancholia. The disturbance of self-regard (lowering of ego-feeling) serves as the decisive differential feature vis-à-vis mourning."
+      }
+    },
+    {
+      "id": "freud_04",
+      "doc": "mourning-and-melancholia",
+      "text": "Mourning displays the same traits, except for one: the disturbance of self-regard is absent in mourning. In mourning it is the world which has become poor and empty; in melancholia it is the ego itself.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "conceptual_distinction",
+        "argumentative_function": "contrast",
+        "key_concepts": ["impoverishment of the world", "impoverishment of the ego", "diagnostic distinction"],
+        "notes": "Central structural distinction of the essay: in mourning the world becomes poor and empty; in melancholia it is the ego itself. Core diagnostic axis for testing the working hypothesis."
+      }
+    },
+    {
+      "id": "freud_05",
+      "doc": "mourning-and-melancholia",
+      "text": "Reality-testing has shown that the loved object no longer exists, and it proceeds to demand that all libido shall be withdrawn from its attachments to that object. Against this demand a understandable opposition arises—since people never willingly abandon a libidinal position. Normally, respect for reality gains the day, yet its orders cannot be obeyed at once; they are carried out bit by bit, at great expense of time and cathectic energy.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_OBJECT"],
+      "metadata": {
+        "status": "mechanism_description",
+        "argumentative_function": "explain",
+        "key_concepts": ["reality-testing", "libido", "piecemeal decathexis", "resistance"],
+        "notes": "Mechanism of the work of mourning: gradual, costly withdrawal of libidinal cathexis from the lost object. Defines the baseline process against which displacement or fixation must be evaluated."
+      }
+    },
+    {
+      "id": "freud_06",
+      "doc": "mourning-and-melancholia",
+      "text": "Each single one of the memories and expectations in which the libido is bound to the object is brought up and hypercathected, and detachment of the libido is accomplished in respect of it. When the work of mourning is completed the ego becomes free and uninhibited again.",
+      "tags": ["CONCEPT_MOURNING", "CONCEPT_OBJECT"],
+      "metadata": {
+        "status": "mechanism_description",
+        "argumentative_function": "describe",
+        "key_concepts": ["work of mourning", "detachment of libido", "free and uninhibited ego", "resolution"],
+        "notes": "Classical endpoint of mourning: once decathexis is achieved, the ego becomes free and uninhibited again. Crucial benchmark for assessing whether mourning has resolved, remains in progress, or stands in tension with continuing-bonds models."
+      }
+    },
+    {
+      "id": "freud_07",
+      "doc": "mourning-and-melancholia",
+      "text": "In mourning there is nothing unconscious about the loss. In melancholia, on the other hand, even if the patient is aware of the loss which has given rise to his melancholia, it is only in the sense that he knows whom he has lost, but not what he has lost in him. This suggests that melancholia is in some way related to an object-loss which is withdrawn from consciousness.",
+      "tags": ["CONCEPT_MELANCHOLIA", "CONCEPT_OBJECT"],
+      "metadata": {
+        "status": "conceptual_distinction",
+        "argumentative_function": "distinguish",
+        "key_concepts": ["conscious loss", "unconscious loss", "unknown dimension of object-loss"],
+        "notes": "Unconscious loss as a hallmark of melancholia. Key diagnostic pivot: does the mourner know what was lost along with the person, or only whom they lost?"
+      }
+    },
+    {
+      "id": "freud_08",
+      "doc": "mourning-and-melancholia",
+      "text": "The melancholic displays an extraordinary diminution in his self-regard, an impoverishment of his ego on a grand scale. He reproaches himself, vilifies himself and expects to be cast out and punished. He does not conceive of a change as having taken place in him, but extends his self-criticism back over the past.",
+      "tags": ["CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "clinical_description",
+        "argumentative_function": "describe",
+        "key_concepts": ["self-reproach", "self-regard", "impoverishment of the ego", "retroactive self-criticism"],
+        "notes": "Phenomenology of melancholic self-reproach. Unlike situational ethical guilt, melancholic self-abasement denies temporal change and projects worthlessness across the entire past."
+      }
+    },
+    {
+      "id": "freud_09",
+      "doc": "mourning-and-melancholia",
+      "text": "If one listens patiently to a melancholic's many and various self-accusations, one cannot avoid the impression that often the most violent of them are hardly at all applicable to the patient himself, but that with insignificant modifications they do fit someone else—someone whom the patient loves or has loved or should love. The self-reproaches are reproaches against a loved object which have been shifted away from it on to the patient's own ego.",
+      "tags": ["CONCEPT_MELANCHOLIA", "CONCEPT_IDENTIFICATION", "CONCEPT_AMBIVALENCE"],
+      "metadata": {
+        "status": "mechanism_description",
+        "argumentative_function": "explain",
+        "key_concepts": ["reproaches shifted onto the ego", "love-object", "internalized hostility"],
+        "notes": "Mechanism of transposed reproach: accusations aimed at the self are disguised accusations against the loved object. Central criterion for distinguishing melancholic guilt from ethical concern."
+      }
+    },
+    {
+      "id": "freud_10",
+      "doc": "mourning-and-melancholia",
+      "text": "An object-choice, an attachment of the libido to a particular person, had at one time existed; then, owing to a real slight or disappointment coming from this loved person, the object-relationship was shattered. The free libido was not displaced on to another object; it was withdrawn into the ego and served to establish an identification of the ego with the abandoned object. Thus the shadow of the object fell upon the ego.",
+      "tags": ["CONCEPT_IDENTIFICATION", "CONCEPT_OBJECT", "CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "mechanism_description",
+        "argumentative_function": "explain",
+        "key_concepts": ["object-choice", "withdrawal into the ego", "narcissistic identification", "shadow of the object"],
+        "notes": "Canonical formula of the melancholic mechanism ('the shadow of the object fell upon the ego'), contrasted with libidinal displacement onto a new or substitute external object."
+      }
+    },
+    {
+      "id": "freud_11",
+      "doc": "mourning-and-melancholia",
+      "text": "In this way an object-loss was transformed into an ego-loss, and the cleavage between the critical activity of the ego and the ego as altered by identification took the place of the conflict between the ego and the loved person.",
+      "tags": ["CONCEPT_IDENTIFICATION", "CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "theoretical_conclusion",
+        "argumentative_function": "synthesize",
+        "key_concepts": ["ego-loss", "internalized conflict", "critical agency of the ego"],
+        "notes": "Structural consequence of narcissistic identification: external relational conflict is internalized as an intrapsychic split within the ego."
+      }
+    },
+    {
+      "id": "freud_12",
+      "doc": "mourning-and-melancholia",
+      "text": "Narcissistic identification with the object then becomes a substitute for the erotic cathexis, the result of which is that in spite of the conflict with the loved person the love-relation need not be given up. This substitution of identification for object-love is an important mechanism in the narcissistic affections.",
+      "tags": ["CONCEPT_IDENTIFICATION", "CONCEPT_OBJECT"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "explain",
+        "key_concepts": ["narcissistic identification", "substitute for erotic cathexis", "unrelinquished bond"],
+        "notes": "Identification operates as a way of preserving the erotic attachment without relinquishing the object, explaining the chronicity of melancholic states."
+      }
+    },
+    {
+      "id": "freud_13",
+      "doc": "mourning-and-melancholia",
+      "text": "The loss of a love-object is an excellent opportunity for the ambivalence in love-relationships to make itself effective and come into the open. Such ambivalence may be constitutional or may grow precisely out of those experiences that involved the threat of losing the object. Ambivalence must be ranked among the preconditions of melancholia.",
+      "tags": ["CONCEPT_AMBIVALENCE", "CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "establish_condition",
+        "key_concepts": ["ambivalence", "love and hate", "preconditions of melancholia", "constitutional vs situational"],
+        "notes": "Ambivalence—whether constitutional or forged through prolonged threat of loss and caregiving strain—as a necessary precondition for melancholic complication."
+      }
+    },
+    {
+      "id": "freud_14",
+      "doc": "mourning-and-melancholia",
+      "text": "If the love for the object—a love which cannot be given up though the object itself is given up—takes refuge in narcissistic identification, then the hate comes into operation on this substitutive object, abusing it, debasing it, making it suffer and deriving sadistic satisfaction from its suffering. The self-tormenting in melancholia signifies a satisfaction of trends of sadism and hate which relate to an object and have been turned round upon the subject's own self.",
+      "tags": ["CONCEPT_AMBIVALENCE", "CONCEPT_IDENTIFICATION", "CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "mechanism_description",
+        "argumentative_function": "explain",
+        "key_concepts": ["sadism", "retroflected hate", "self-torment", "sadistic satisfaction"],
+        "notes": "Sadism turned back upon the ego: love retreats into identification while hate attacks the introjected object through self-torment."
+      }
+    },
+    {
+      "id": "freud_15",
+      "doc": "mourning-and-melancholia",
+      "text": "The ego can kill itself only if, owing to the return of the object-cathexis, it can treat itself as an object—if it is able to direct against itself the hostility which relates to an object. Thus in regression from narcissistic object-choice the object has, it is true, been got rid of, regular enough, yet it has nevertheless proved more powerful than the ego itself.",
+      "tags": ["CONCEPT_MELANCHOLIA", "CONCEPT_IDENTIFICATION"],
+      "metadata": {
+        "status": "theoretical_conclusion",
+        "argumentative_function": "explain",
+        "key_concepts": ["suicide", "hostility directed at the ego", "object overpowering the ego"],
+        "notes": "Limit-case of the melancholic mechanism: suicidal destructiveness requires treating the ego as the hated, abandoned object."
+      }
+    },
+    {
+      "id": "freud_16",
+      "doc": "mourning-and-melancholia",
+      "text": "Melancholia shares with mourning the feature of passing off after a certain time has elapsed without leaving traces of any gross changes. Yet the complex of melancholia behaves like an open wound, drawing to itself cathectic energies from all directions and emptying the ego until it is totally impoverished.",
+      "tags": ["CONCEPT_MELANCHOLIA", "CONCEPT_MOURNING"],
+      "metadata": {
+        "status": "theoretical_claim",
+        "argumentative_function": "contrast",
+        "key_concepts": ["open wound", "impoverishment of the ego", "eventual remission"],
+        "notes": "Melancholia as an 'open wound' draining cathectic energy from every side, even if capable of eventual spontaneous remission."
+      }
+    },
+    {
+      "id": "freud_17",
+      "doc": "mourning-and-melancholia",
+      "text": "The most remarkable characteristic of melancholia is its tendency to change round into mania. In mania, the ego must have got over the loss of the object, whereon the whole quota of anticathexis which the painful suffering of melancholia had drawn to itself from the ego and bound becomes available.",
+      "tags": ["CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "mechanism_description",
+        "argumentative_function": "expand",
+        "key_concepts": ["mania", "reversal of melancholia", "anticathexis", "oscillation"],
+        "notes": "Mania as the economic counterpart of melancholia, releasing previously bound anticathectic energy once the ego masters or casts off the object."
+      }
+    },
+    {
+      "id": "freud_18",
+      "doc": "mourning-and-melancholia",
+      "text": "In melancholia the relation to the object is no simple one; it is complicated by the conflict due to ambivalence, whether constitutional or arising from experiences involving the threat of losing the object. The gradual detachment of the libido is a process common to both mourning and melancholia and rests upon the same economic conditions.",
+      "tags": ["CONCEPT_AMBIVALENCE", "CONCEPT_MOURNING", "CONCEPT_MELANCHOLIA"],
+      "metadata": {
+        "status": "synthesis",
+        "argumentative_function": "synthesize",
+        "key_concepts": ["ambivalence", "gradual detachment of libido", "shared economic process"],
+        "notes": "Closing synthesis of the essay: mourning and melancholia share piecemeal libidinal detachment, but ambivalence complicates and derails the process in melancholia."
+      }
+    }
+  ]
+}

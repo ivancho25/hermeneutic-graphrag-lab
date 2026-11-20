@@ -1,0 +1,82 @@
+Retrieval engine ready (66 nodes, 68 edges, model='all-MiniLM-L6-v2').
+
+======================================================================
+QUERY: How are Clara's compulsive street muttering in Bristol and her inability to sleep or eat during Argo's disappearances on Dartmoor structurally connected?
+======================================================================
+
+── Semantic Seed Search (top 8) ──
+  1. [0.448] argo_15 (space_A): Argo lives in the countryside now. My first two years here were peacef...
+  2. [0.415] argo_07 (space_A): Naming him after Odysseus's faithful hound, I promised to take him out...
+  3. [0.407] argo_01 (space_A): In 2019 I, Clara, was 52 years old, living in a second-floor flat off ...
+  4. [0.388] argo_02 (space_A): That meant I could never leave the flat for more than two or three hou...
+  5. [0.382] argo_03 (space_A): That same year I developed a symptom: I started talking to myself. Con...
+  6. [0.365] argo_21 (space_A): Whenever he disappeared for two days—which happened at least ten times...
+  7. [0.364] argo_09 (space_A): My father and the dog took to each other well. Argo has always been bi...
+  8. [0.356] argo_26 (space_A): Yet at the same time, that reduces him to a lapdog, an emotional crutc...
+
+── Epistemic Graph Expansion (+20 neighbor nodes, hops=1) ──
+  + theory_09  (space_B | hop=1 | max_weight=1.0)
+  + argo_27    (space_A | hop=1 | max_weight=1.0)
+  + freud_07   (space_B | hop=1 | max_weight=1.0)
+  + theory_04  (space_B | hop=1 | max_weight=1.0)
+  + theory_05  (space_B | hop=1 | max_weight=1.0)
+  + argo_10    (space_A | hop=1 | max_weight=1.0)
+  + argo_05    (space_A | hop=1 | max_weight=1.0)
+  + freud_06   (space_B | hop=1 | max_weight=1.0)
+  + theory_15  (space_B | hop=1 | max_weight=1.0)
+  + freud_04   (space_B | hop=1 | max_weight=1.0)
+  + theory_06  (space_B | hop=1 | max_weight=1.0)
+  + freud_10   (space_B | hop=1 | max_weight=1.0)
+  + freud_13   (space_B | hop=1 | max_weight=1.0)
+  + argo_25    (space_A | hop=1 | max_weight=1.0)
+  + argo_14    (space_A | hop=1 | max_weight=0.6)
+  + theory_13  (space_B | hop=1 | max_weight=0.6)
+  + freud_01   (space_B | hop=1 | max_weight=0.6)
+  + theory_11  (space_B | hop=1 | max_weight=0.6)
+  + theory_02  (space_B | hop=1 | max_weight=0.6)
+  + argo_28    (space_A | hop=1 | max_weight=0.6)
+
+── Assembled Context Stats ──
+  Nodes included: 28 (8 seeds + 20 expanded)
+  Edges included: 37 (CONTRADICTS=2, OPENS_QUESTION=6)
+  Context length: 29977 characters
+
+── Dispatching to DeepSeek (deepseek-chat, temp=0.3) ──
+Tokens used — prompt: 7628 | completion: 2037
+
+======================================================================
+ANALYTICAL SYNTHESIS:
+======================================================================
+# The Same Wound, Two Mouths: Muttering and Starvation as a Single Structure
+
+The question of how Clara's compulsive street muttering in Bristol and her inability to sleep or eat during Argo's disappearances on Dartmoor are "structurally connected" invites a temptation that the material itself resists: the temptation to name a single mechanism and be done. What the passages disclose instead is a *reversible* structure—a single psychic economy that, under different conditions, discharges through two opposite somatic routes. In Bristol the distress is *expelled outward* as an involuntary, spatially expanding monologue; on Dartmoor it is *driven inward* as a refusal of sleep and food. The two symptoms are not merely analogous. They are the same failure of containment, running in opposite directions depending on whether the object that regulates it is present or absent.
+
+## The hinge: a symptom that found its object
+
+The narrative spine is explicit and carries the highest weight: the muttering *precedes* and *motivates* the adoption. Clara's own formulation—"one way to ease the loneliness and drain this relentless need to speak is to get a dog"—establishes that Argo was recruited as a solution to a symptom already in motion. The muttering, we are told, began in the kitchen and "little by little the geography of my monologue expanded to the sitting room, the bathroom, the hallway. I couldn't stop it." This is a symptom defined by *spatial metastasis* and loss of voluntary control—an utterance without an addressee, or rather with a withdrawn one. Clara names the precipitant precisely: conversation with Walter, "once our favourite pastime," had grown "painful" because frustration had made him "bitter, resentful, and often hateful." The muttering is thus the ghost of a dialogue whose living partner had become unavailable *as an interlocutor* while remaining physically present and dependent. It is speech migrating from a relationship to a room.
+
+Read through Freud's account of ambivalence as a precondition of melancholia, this is legible: tender care and acute frustration coexist, and the frustration cannot be spoken *to* the father, so it is spoken *instead of* him—into the kitchen air. The muttering is the somatic-linguistic residue of an ambivalence that has nowhere legitimate to go. Doka's disenfranchised grief sharpens the point: the caregiving confinement and the unmourned breakup with Julian unfold "in the absence of institutional or familial support," so the distress has no sanctioned outlet and leaks into the geography of the flat.
+
+## The reversal: from expulsion to inhibition
+
+Five years later, Clara writes that Argo "remains the cure that keeps me from muttering to myself, from sinking into dark thoughts about my fate." The word *cure* is hers, and it closes the loop back to the kitchen. Argo functions as the addressee the muttering lacked—a living surface onto which the displaced dialogue can be redirected. This is the Marie Bonaparte/Topsy mechanism in its most literal form: an animal narrative absorbing a human grief that cannot be faced directly. In Winnicott's terms Argo is a living transitional object, mediating between Clara's internal dread and external reality; in Kohut's, a selfobject sustaining cohesion. The passage "there were two of us now: Argo and I" is the compressed formula of that regulation—the solitary caregiver's burden redistributed across a dyad.
+
+But the very success of this regulation generates the second symptom. When Argo vanishes for two days—"which happened at least ten times"—Clara "could neither sleep nor eat." Here the structure inverts. In Bristol, distress was *hyper-verbal and expulsive*; on Dartmoor, with the regulating object absent, it becomes *silent and retentive*—a shutting-down of the two most basic incorporative and restorative functions. The psychosomatic account (sympathetic hyperarousal, autonomic dysregulation following the sudden absence of a co-regulating body) and the Kohutian account (acute fragmentation of defensive architecture when the selfobject is lost) converge on the same observation: the body registers the object's absence as a threat to its own continuity. The relief on reunion—"overwhelming"—confirms that what was perturbed was not merely mood but homeostatic equilibrium.
+
+The structural connection, then, is best stated as a *conservation of psychic pressure*. The same unassimilated mass—grief for Walter, for Bristol, for the family Clara hoped to build—must go somewhere. When an addressee is present (however imperfectly), it discharges as speech; when the addressee is absent, it discharges as somatic inhibition. Muttering and starvation are two ports for one current. That Argo both *silences* the first symptom and, in his absence, *produces* the second is not a contradiction but the signature of a single regulatory function: he is the valve. Remove the valve and the pressure does not disappear; it changes direction.
+
+## The diagnostic friction the material will not let us smooth
+
+Yet the working hypothesis—that this is mourning mediated by Argo rather than a strict melancholic organization—must be tested against the passages that complicate it, and here the corpus stages genuine friction rather than resolution.
+
+The melancholia reading has real purchase. Freud's decisive axis is that "in mourning it is the world which has become poor and empty; in melancholia it is the ego itself." Clara describes *both*: an impoverished world ("the only thing left of a life that is gone," dried-up work, fraying ties) *and* subjective depletion ("everything feels uphill," "bleak financial situation"). The question the material opens—rather than answers—is which register structurally dominates. And the guilt that surfaces at the end—"I feel I am sacrificing him"—could be read as the melancholic lowering of self-regard, the shadow of the object fallen on the ego. The relation between Argo and the canonical melancholic mechanism is genuinely double-edged: Clara's libido has *not* been withdrawn into the ego in identification with the lost object; it has been displaced onto a *living external* object. That is precisely what distinguishes her configuration from Freud's formula—and yet the intensity of her reliance ("indispensable") raises the question of whether this displacement is a way-station of mourning or a foreclosure of it.
+
+This is where the continuing-bonds revision (Klass, Silverman, & Nickman) and the classical endpoint collide head-on. Freud holds that completed mourning leaves the ego "free and uninhibited again" once libido is detached. Nearly three years after Walter's death, Clara is not free; she is tethered—to a dog she cannot let run. The corpus refuses to adjudicate whether this represents an unfinished decathexis or a legitimate reorganized bond mediated through a multispecies witness. The Lacanian point that real loss is strictly non-substitutable deepens the stakes: Argo is not a fungible pet but the sole surviving witness to the relational position Clara occupied in Bristol, which is why the prospect of his loss reactivates the *entire* mourning apparatus rather than a bounded new grief. If he is irreplaceable in that structural sense, then his presence may be doing necessary work that no internalization could substitute for—or it may be holding at bay an internalization that has not yet been attempted.
+
+The muttering itself opens a further question that bears directly on the melancholia hypothesis. Freud distinguishes conscious loss in mourning from melancholia, where "the patient knows whom he has lost, but not what he has lost in him." Clara's muttering suggests an *unnameable surplus*: not only Walter as interlocutor, but partnership, mobility, the hoped-for family. How conscious are the dimensions of her loss? The symptom's very involuntariness—"I couldn't stop it"—points toward something operating below the threshold of what she can say, which is exactly the melancholic signature. Yet the fact that she *names* it as a symptom, and names its precipitant, argues for a degree of reflective access that melancholia proper would foreclose.
+
+## The unresolved ethical remainder
+
+The corpus ends, deliberately, not in diagnosis but in an open ethical question. Clara's guilt over tethering Argo—"I don't know whether staying by my side to tend to my grief is a fair destiny for him"—cannot be resolved into either melancholic self-reproach or simple altruism. It may be genuine ethical reflection on non-human autonomy; it may be the ambivalence of guardianship itself, love and dread fused in the same act of protection. What it does establish is that the regulatory structure is not cost-free: the valve that keeps Clara from muttering is a lead that keeps Argo from the heather. The inaugural promise—to lead him "across wide, unknown horizons" and be "far better to him than Odysseus ever was"—stands in unresolved contradiction with the present confinement, and the contradiction is not a failure of insight but the very form the mourning takes.
+
+The most defensible reading, then, is not that Clara is melancholic in the strict Freudian sense, nor that her mourning is simply healthy. It is that the two symptoms are structurally one—a single economy of unassimilated loss that discharges as speech when the regulating object is present and as somatic shutdown when it is absent—and that this economy is *held open* by Argo's living body. Whether that holding is a stage of mourning or a substitute for it remains, on the evidence, a genuine question rather than a settled verdict. The muttering and the starvation are the same wound speaking through two mouths; the corpus asks us to keep listening to both without deciding too soon which one is telling the truth.

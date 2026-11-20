@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "project": "HermeneuticGraphRAG",
+    "version": "0.2",
+    "date": "2026-11-19",
+    "description": "Clinical vignette nodes (Space A: 'Argo-and-I'). Synthetic first-person narrative created for methodological prototyping. Mixed chunking: short paragraphs whole, longer paragraphs split by thematic unit.",
+    "is_synthetic_vignette": true
+  },
+  "nodes": [
+    {
+      "id": "argo_01",
+      "doc": "argo-and-i",
+      "text": "In 2019 I, Clara, was 52 years old, living in a second-floor flat off Gloucester Road in Bristol—a dense, noisy urban setting—caring for my father, Walter, who was 84. He wasn't suffering from a single terminal illness, yet old age and a series of silent micro-strokes following a severe B-vitamin deficiency had left him profoundly frail and dependent on daily care. He could no longer lift a kettle, serve himself a plate of food, cook, or get up off the floor on his own if he fell.",
+      "tags": ["MOURNING_WALTER"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol",
+        "characters": ["Clara", "Walter"],
+        "notes": "Establishes the caregiving context. Walter has not died yet, but this chunk defines the physical dependency and confinement structuring the entire pre-bereavement period."
+      }
+    },
+    {
+      "id": "argo_02",
+      "doc": "argo-and-i",
+      "text": "That meant I could never leave the flat for more than two or three hours at a stretch. The strain with my father was compounded by cousins who pressured me to take over managing two elderly aunts living nearby, and by a painful breakup—a divorce in everything but name—from Julian, my former partner, after four years of living together.",
+      "tags": ["MOURNING_WALTER", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol",
+        "characters": ["Clara", "Julian"],
+        "notes": "Simultaneous cumulative losses: loss of mobility, family pressure, and loss of romantic partner. Clara frames her subjective entrapment rather than Walter's condition alone."
+      }
+    },
+    {
+      "id": "argo_03",
+      "doc": "argo-and-i",
+      "text": "That same year I developed a symptom: I started talking to myself. Conversing with my father—once our favourite pastime, as he had been a history teacher—had grown painful; he didn't have dementia, but deep frustration had made him bitter, resentful, and often hateful. I began muttering to myself in the kitchen, where I spent most of the day, in a constant undertone. Little by little the geography of my monologue expanded to the sitting room, the bathroom, the hallway. I couldn't stop it.",
+      "tags": ["SYMPTOM_SOLILOQUY"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol, inside the flat",
+        "characters": ["Clara", "Walter"],
+        "notes": "Onset and spatial expansion of the soliloquy symptom, explicitly named as a symptom by the narrator. Coexistence of devoted caregiving and strong ambivalence ('bitter, resentful, and often hateful')."
+      }
+    },
+    {
+      "id": "argo_04",
+      "doc": "argo-and-i",
+      "text": "Soon I was muttering to myself uncontrollably on the street. It got to the point where I walked around wearing unplugged earphones and pulling a scarf up over my chin even in mild weather, pretending to be on a phone call just to disguise my constant talking. I felt deeply ashamed.",
+      "tags": ["SYMPTOM_SOLILOQUY"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol, public space",
+        "characters": ["Clara"],
+        "notes": "Spillover of the symptom into public space and emergence of shame. The symptom is no longer controllable or concealable without artifice."
+      }
+    },
+    {
+      "id": "argo_05",
+      "doc": "argo-and-i",
+      "text": "That was when I told myself: one way to ease the loneliness and drain this relentless need to speak is to get a dog.",
+      "tags": ["SYMPTOM_SOLILOQUY", "ARGO_FUNCTION"],
+      "metadata": {
+        "status": "personal_interpretation",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol",
+        "characters": ["Clara"],
+        "notes": "Hinge node: the soliloquy symptom directly motivates the decision to adopt Argo, bridging the symptom cluster and the human-animal bond."
+      }
+    },
+    {
+      "id": "argo_06",
+      "doc": "argo-and-i",
+      "text": "I had grown up with Bramble, a small border terrier, and later kept a spaniel cross named Pip in my twenties. That very afternoon I searched local rescue listings online and found a litter of Lurcher pups—greyhound crossed with collie—barely three months old. One gangly pup caught my heart immediately; I rang, paid the forty-pound rehoming fee I thankfully could still spare, and a few days later Argo arrived.",
+      "tags": ["ARGO_FUNCTION"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol",
+        "characters": ["Clara", "Argo"],
+        "notes": "Prior history with dogs and Argo's arrival. Establishes precedent for canine attachment and introduces the deliberate naming of the puppy."
+      }
+    },
+    {
+      "id": "argo_07",
+      "doc": "argo-and-i",
+      "text": "Naming him after Odysseus's faithful hound, I promised to take him out to wide, unknown horizons across the moors in search of real adventures—vowing to be far better to him than Odysseus ever was, and never to leave him behind waiting.",
+      "tags": ["ARGO_FUNCTION", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "personal_interpretation",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol",
+        "characters": ["Clara", "Argo"],
+        "notes": "Foundational promise to Argo. Clara positions herself as an reparative caregiver promising open horizons—anticipating the later tension between promised freedom and protective confinement."
+      }
+    },
+    {
+      "id": "argo_08",
+      "doc": "argo-and-i",
+      "text": "The puppy was a sudden light; my life began to revolve around being with him, always. I remember collecting him near Temple Meads station at six in the evening, Bristol more chaotic than ever—rain, buses, commuters, exhaust fumes, and noise. I tucked him inside my coat and walked all the way home; whenever I set him down on the pavement, the poor creature froze in terror. Once inside the flat, he shook himself off, peed on the hallway mat, and began wagging his long tail—that tail that moves so effortlessly.",
+      "tags": ["ARGO_FUNCTION"],
+      "metadata": {
+        "status": "memory",
+        "voice": "Clara, first person",
+        "period": "2019",
+        "location": "Bristol, Temple Meads",
+        "characters": ["Clara", "Argo"],
+        "notes": "First memory of Argo marked by high affective warmth ('a sudden light'). The effortlessly wagging tail functions as an image of vitality amidst domestic decline."
+      }
+    },
+    {
+      "id": "argo_09",
+      "doc": "argo-and-i",
+      "text": "My father and the dog took to each other well. Argo has always been biddable, bright, and quick to learn, though also stubborn, mischievous, restless, and brimming with energy. Remarkable things began to happen: I slept with my bedroom door ajar to hear if my father stirred at night, which meant Argo could wander in freely—and I liked having him curled at the foot of my bed, a heavy, peaceful sleeper. Still only a few months old, he grasped that whenever noises came from my father's room, we got up to check. Before long he began alerting me himself, waking me with low barks to let me know my father was trying to get up.",
+      "tags": ["ARGO_FUNCTION", "MOURNING_WALTER"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2019-2021",
+        "location": "Bristol, inside the flat",
+        "characters": ["Clara", "Argo", "Walter"],
+        "notes": "Argo actively shares the caregiving vigil, mediating Clara's nocturnal hypervigilance and entering the pre-bereavement triad as a co-regulating agent."
+      }
+    },
+    {
+      "id": "argo_10",
+      "doc": "argo-and-i",
+      "text": "That allowed me to sleep more deeply, surrendering to rest; I was no longer caring for him alone—there were two of us now: Argo and I.",
+      "tags": ["ARGO_FUNCTION", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "personal_interpretation",
+        "voice": "Clara, first person",
+        "period": "2019-2021",
+        "location": "Bristol",
+        "characters": ["Clara", "Argo"],
+        "notes": "Explicit formulation of shared psychic burden ('there were two of us now'). Captures transitional and selfobject regulation in condensed form."
+      }
+    },
+    {
+      "id": "argo_11",
+      "doc": "argo-and-i",
+      "text": "Another telling detail is that Argo and my father shared three years under the same roof. The Lurcher grew into a twenty-kilo hound—fast, angular, boisterous, extraordinarily agile—and yet never once, not even by accident, did he knock my frail father over, scratch his thin skin, or hurt him in any way.",
+      "tags": ["ARGO_FUNCTION", "MOURNING_WALTER"],
+      "metadata": {
+        "status": "observation",
+        "voice": "Clara, first person",
+        "period": "2019-2022",
+        "location": "Bristol",
+        "characters": ["Clara", "Argo", "Walter"],
+        "notes": "Three years of coexistence between a boisterous sighthound and a fragile elder. Behavioural self-regulation carrying strong argumentative weight for multispecies kinship."
+      }
+    },
+    {
+      "id": "argo_12",
+      "doc": "argo-and-i",
+      "text": "In January 2022 Walter died. His last days were a slow agony brought on by severe winter pneumonia that his weakened body could not fight off. I chose to care for him at home, supported only by brief visits from district nurses and occasional help from an old family acquaintance.",
+      "tags": ["MOURNING_WALTER"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "January 2022",
+        "location": "Bristol",
+        "characters": ["Clara", "Walter"],
+        "notes": "Walter's death at home without institutional or collective mourning rituals, inaugurating reality-testing of the loss in domestic isolation."
+      }
+    },
+    {
+      "id": "argo_13",
+      "doc": "argo-and-i",
+      "text": "Those visitors only stayed for twenty minutes at a time; in truth, inside that flat there were only the three of us—my father, good old Argo, and me. And so the three of us passed together through Walter's final, valedictory night.",
+      "tags": ["MOURNING_WALTER", "ARGO_FUNCTION"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "January 2022",
+        "location": "Bristol",
+        "characters": ["Clara", "Argo", "Walter"],
+        "notes": "The three together on the night of death. Argo is physically co-present at the inaugural scene of bereavement, making him a living witness to Walter's final hours."
+      }
+    },
+    {
+      "id": "argo_14",
+      "doc": "argo-and-i",
+      "text": "Afterwards came selling the flat. I tried reconciling with Julian, my ex, but it fell apart—partly because he never cared for Argo. We sold the flat cheaply to clear debts, and I moved into a converted stone outbuilding on a friend's smallholding in Devon, on the edge of Dartmoor National Park, high up near the open moor.",
+      "tags": ["MOURNING_WALTER", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2022",
+        "location": "Bristol / Dartmoor, Devon",
+        "characters": ["Clara", "Julian", "Argo"],
+        "notes": "Post-bereavement cascade of secondary losses: undersold home, failed reconciliation with Julian (who rejects Argo), and radical geographical displacement."
+      }
+    },
+    {
+      "id": "argo_15",
+      "doc": "argo-and-i",
+      "text": "Argo lives in the countryside now. My first two years here were peaceful, but lately my freelance archival work has dried up, money has grown tight, and everything feels uphill. Relations with my friend and his family have been fraying. Soon I plan to move into an empty cottage nearby, offered to me by an old colleague from Bristol, while I try to get several projects off the ground to salvage my bleak financial situation.",
+      "tags": ["SELF_DEFINITION"],
+      "metadata": {
+        "status": "personal_interpretation",
+        "voice": "Clara, first person",
+        "period": "2023-2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Present precarity: economic decline, fraying social ties, and lack of institutional support framing Clara's ongoing mourning and protective anxiety."
+      }
+    },
+    {
+      "id": "argo_16",
+      "doc": "argo-and-i",
+      "text": "Argo is happy here: he sprints, courses after scents, socialises and scraps with farm dogs, sniffs the hedgerows, buries bones—doing proper dog things. He is five years old now, going on six, here in October 2024.",
+      "tags": ["ARGO_FUNCTION"],
+      "metadata": {
+        "status": "observation",
+        "voice": "Clara, first person",
+        "period": "October 2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Observation of Argo's canine vitality in the countryside, setting up a sharp contrast with the leash restriction described later."
+      }
+    },
+    {
+      "id": "argo_17",
+      "doc": "argo-and-i",
+      "text": "When we arrived there was another male dog on the smallholding, Moss, the same age as Argo, kept outdoors and half-feral. Being two intact males competing for human affection, they clashed badly at first; Argo lost the early fights, then began winning every time. From day one I insisted my dog belonged indoors because he was raised in a city flat and doesn't know unforgiving country rules—like never chasing pheasants or hens.",
+      "tags": ["RISK_CONTEXT", "ARGO_FUNCTION"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2022-2023",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo", "Moss"],
+        "notes": "Introduction to the rural risk environment: territorial conflict with Moss and the unspoken rural code regarding poultry and game birds."
+      }
+    },
+    {
+      "id": "argo_18",
+      "doc": "argo-and-i",
+      "text": "Livestock and poultry are a ruthless matter out here; there have been bitter feuds between neighbouring farms over killed hens, and local farmers hold that a poultry-worrying dog forfeits its life. One neighbour, furious about a stray harassing his coop, laid poisoned meat baits along his boundary; poor Moss ate one and died, though he had never touched a bird.",
+      "tags": ["RISK_CONTEXT"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2022-2023",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Moss"],
+        "notes": "Objective, non-symbolic danger: Moss dies from poisoned bait laid by a neighbour. Establishes an empirical reality basis for Clara's fear."
+      }
+    },
+    {
+      "id": "argo_19",
+      "doc": "argo-and-i",
+      "text": "Another hazard is adders (Vipera berus), which thrive in the bracken and dry-stone walls around the moor; I have seen at least four live ones since arriving, and three dead on the lane. Adders are shy and rarely strike unless provoked, with tiny fangs, yet rooting dogs shove their muzzles and paws straight into the heather, and miles from an emergency vet, adder venom can prove fatal.",
+      "tags": ["RISK_CONTEXT"],
+      "metadata": {
+        "status": "observation",
+        "voice": "Clara, first person",
+        "period": "2022-2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara"],
+        "notes": "Natural environmental hazard documented with precision, reinforcing the distinction between realistic danger assessment and purely neurotic projection."
+      }
+    },
+    {
+      "id": "argo_20",
+      "doc": "argo-and-i",
+      "text": "Worse still is Argo's roaming. He is an intact male, never neutered. During our first two years here he spent most days outside to avoid indoor clashes with Moss, coming in to eat and to sleep beside me. That meant bolting: several times he vanished for up to forty-eight hours, spotted by farmers miles away across the tors. He has always come back.",
+      "tags": ["RISK_CONTEXT", "FEAR_LOSING_ARGO"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2022-2023",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Argo's 48-hour disappearances operate simultaneously as objective rural risk and repeated episodes of anticipatory bereavement."
+      }
+    },
+    {
+      "id": "argo_21",
+      "doc": "argo-and-i",
+      "text": "Whenever he disappeared for two days—which happened at least ten times—I could neither sleep nor eat, and when I finally saw him trotting up the lane unharmed, my relief and joy were overwhelming.",
+      "tags": ["FEAR_LOSING_ARGO", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2022-2023",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Acute somatic dysregulation (insomnia, inability to eat) during Argo's absences and intense restoration upon reunion—clinical markers of selfobject/attachment disruption."
+      }
+    },
+    {
+      "id": "argo_22",
+      "doc": "argo-and-i",
+      "text": "Following Moss's poisoning, and an episode with a young neighbouring collie-cross who befriended Argo and lured him off for days at a time, the neighbour who lays poison gave me a blunt warning: the two dogs had chewed leather tack in his barn and chased his hens. The young dog's owner sent him away to relatives, and I restricted Argo's life.",
+      "tags": ["RISK_CONTEXT", "FREEDOM_PROTECTION_TENSION"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2023-2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Turning point: the neighbour's threat precipitates the sudden restriction of Argo's movement without symbolic mediation or transition."
+      }
+    },
+    {
+      "id": "argo_23",
+      "doc": "argo-and-i",
+      "text": "For nearly a year now Argo only goes out with me, kept on a long lead—something almost unheard of out here on the moor. I refuse to let the neighbour kill my companion.",
+      "tags": ["FREEDOM_PROTECTION_TENSION", "FEAR_LOSING_ARGO"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2023-2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Physical tethering ('kept on a long lead') as current practice. Raises the question of physical retention versus psychic internalization."
+      }
+    },
+    {
+      "id": "argo_24",
+      "doc": "argo-and-i",
+      "text": "Meanwhile, the host family now has a female pup, Fern, seven or eight months old; Argo and she play all day, and she doesn't roam—not yet. In typical rough country fashion, the family leaves her outside in all weathers with minimal fuss. I am the one who feeds both dogs, applies their flea treatments, and worms them; in a sense, Fern is mine. She is coming up to her first season, and I want to get her a hormone jab from the vet, otherwise Argo will sire puppies—if he hasn't already.",
+      "tags": ["ARGO_FUNCTION", "RISK_CONTEXT"],
+      "metadata": {
+        "status": "event_account",
+        "voice": "Clara, first person",
+        "period": "2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo", "Fern"],
+        "notes": "Fern introduces a new caregiving bond and an imminent biological trigger (first heat) threatening to reignite Argo's roaming."
+      }
+    },
+    {
+      "id": "argo_25",
+      "doc": "argo-and-i",
+      "text": "I am torn between giving him more freedom and protecting him further. So far I have chosen protection; his odds of surviving loose under these conditions seem terribly slim—between poisoned baits, adders in the bracken, dogfights over a bitch in season, and miles-long runs across sheep country. So I choose to guard him.",
+      "tags": ["FREEDOM_PROTECTION_TENSION", "RISK_CONTEXT"],
+      "metadata": {
+        "status": "personal_interpretation",
+        "voice": "Clara, first person",
+        "period": "October 2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Explicit statement of the freedom-versus-protection dilemma, rationalized through objective environmental threats."
+      }
+    },
+    {
+      "id": "argo_26",
+      "doc": "argo-and-i",
+      "text": "Yet at the same time, that reduces him to a lapdog, an emotional crutch for me. To me he is indispensable; I feel he is the only thing left of a life that is gone—my life in Bristol, with Walter, when I still hoped to build a family of my own.",
+      "tags": ["ARGO_FUNCTION", "MOURNING_WALTER", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "personal_interpretation",
+        "voice": "Clara, first person",
+        "period": "October 2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo", "Walter"],
+        "notes": "Highest conceptual density in Space A. Clara recognizes her psychic reliance on Argo as 'the only thing left of a life that is gone', directly linking him to Walter and lost life possibilities."
+      }
+    },
+    {
+      "id": "argo_27",
+      "doc": "argo-and-i",
+      "text": "Argo is part of my mental stability, part of my mourning process; he remains the cure that keeps me from muttering to myself, from sinking into dark thoughts about my fate.",
+      "tags": ["ARGO_FUNCTION", "SYMPTOM_SOLILOQUY", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "personal_interpretation",
+        "voice": "Clara, first person",
+        "period": "October 2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Closes the narrative loop back to argo_03: five years later, Argo still functions as symptom regulator, mourning mediator, and defence against depressive collapse."
+      }
+    },
+    {
+      "id": "argo_28",
+      "doc": "argo-and-i",
+      "text": "So sometimes I feel I am sacrificing him—that he ought to be sprinting across the heather, scrapping, living a real dog's life even if it turns out shorter than the life of a humanised house-dog. I don't really know what to do; I don't know whether staying by my side to tend to my grief is a fair destiny for him, nor whether leaving him free and exposed to so many dangers would be right.",
+      "tags": ["FREEDOM_PROTECTION_TENSION", "SELF_DEFINITION"],
+      "metadata": {
+        "status": "open_question",
+        "voice": "Clara, first person",
+        "period": "October 2024",
+        "location": "Dartmoor, Devon",
+        "characters": ["Clara", "Argo"],
+        "notes": "Terminal unresolved ethical and clinical question. Guilt surfaces ('I feel I am sacrificing him'), questioning whether protection serves the dog or the mourner's own psychic survival."
+      }
+    }
+  ]
+}

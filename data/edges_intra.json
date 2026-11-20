@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "project": "HermeneuticGraphRAG",
+    "version": "0.2",
+    "date": "2026-11-19",
+    "description": "Intra-space directed edges connecting nodes within Space A (clinical-to-clinical) and within Space B (concept-to-concept). Complements edges.json inside a unified directed graph.",
+    "relation_types": "See ontology.json. Uses PRECEDES, ILLUSTRATES, CONTRADICTS, and NUANCES.",
+    "note_on_PRECEDES": "PRECEDES encodes narrative-causal progression in Space A or logical-conceptual derivation in Space B. It applies exclusively to intra-space edges."
+  },
+
+  "edges_intra": {
+
+    "space_A": [
+      {
+        "id": "ia01",
+        "source": "argo_03",
+        "target": "argo_05",
+        "type": "PRECEDES",
+        "justification": "The compulsive muttering symptom in the flat (argo_03) directly motivates the decision to adopt a dog (argo_05). Clara links them explicitly: 'That was when I told myself.' Direct causal progression within the narrative.",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia02",
+        "source": "argo_04",
+        "target": "argo_05",
+        "type": "PRECEDES",
+        "justification": "The spillover of muttering into public streets and the shame of disguising it behind unplugged earphones (argo_04) mark the tipping point immediately preceding the decision to get a dog (argo_05).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia03",
+        "source": "argo_12",
+        "target": "argo_13",
+        "type": "PRECEDES",
+        "justification": "Walter's death from winter pneumonia at home (argo_12) sets the stage for the intimate scene of the three passing together through his final night (argo_13). Direct temporal and narrative continuity.",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia04",
+        "source": "argo_12",
+        "target": "argo_14",
+        "type": "PRECEDES",
+        "justification": "Walter's death (argo_12) triggers the cascade of secondary losses: underselling the Bristol flat, failed reconciliation with Julian, and relocation to Dartmoor (argo_14).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ia05",
+        "source": "argo_18",
+        "target": "argo_22",
+        "type": "PRECEDES",
+        "justification": "Moss's death from poisoned meat baits (argo_18) forms the concrete empirical precedent behind the neighbour's blunt warning and Clara's decision to restrict Argo (argo_22).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia06",
+        "source": "argo_22",
+        "target": "argo_23",
+        "type": "PRECEDES",
+        "justification": "The neighbour's warning and the decision to restrict Argo's movement (argo_22) directly produce the ongoing daily practice of walking him exclusively on a long lead (argo_23).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia07",
+        "source": "argo_22",
+        "target": "argo_25",
+        "type": "PRECEDES",
+        "justification": "The practical restriction imposed after the neighbour's threat (argo_22) leads Clara to formulate the explicit dilemma between freedom and protection (argo_25).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ia08",
+        "source": "argo_01",
+        "target": "argo_03",
+        "type": "PRECEDES",
+        "justification": "Daily caregiving confinement with frail Walter in the Bristol flat (argo_01) establishes the isolating conditions under which the muttering symptom emerges (argo_03).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ia09",
+        "source": "argo_09",
+        "target": "argo_10",
+        "type": "PRECEDES",
+        "justification": "Argo's nocturnal alerting whenever Walter stirs (argo_09) leads directly to Clara's interpretive synthesis: 'there were two of us now: Argo and I' (argo_10).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia10",
+        "source": "argo_25",
+        "target": "argo_26",
+        "type": "PRECEDES",
+        "justification": "Clara's rationalized decision to guard Argo against rural hazards (argo_25) immediately gives way to the admission that tethering him serves her own emotional survival as 'the only thing left of a life that is gone' (argo_26).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia11",
+        "source": "argo_26",
+        "target": "argo_27",
+        "type": "PRECEDES",
+        "justification": "Recognizing Argo as the sole remnant of her vanished Bristol life (argo_26) unfolds into the explicit statement of his ongoing psychic role: sustaining mental stability, mediating grief, and preventing compulsive muttering (argo_27).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia12",
+        "source": "argo_27",
+        "target": "argo_28",
+        "type": "PRECEDES",
+        "justification": "Confronting how deeply Argo stabilizes her own mourning (argo_27) immediately precipitates ethical guilt over whether keeping him tethered is fair to him: 'I feel I am sacrificing him' (argo_28).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ia13",
+        "source": "argo_03",
+        "target": "argo_27",
+        "type": "ILLUSTRATES",
+        "justification": "Links the onset of compulsive muttering in 2019 (argo_03) to Argo's enduring role five years later as 'the cure that keeps me from muttering to myself' (argo_27), demonstrating structural continuity of symptom regulation.",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ia14",
+        "source": "argo_02",
+        "target": "argo_14",
+        "type": "ILLUSTRATES",
+        "justification": "The cumulative losses of 2019 (confinement, breakup with Julian, family pressure in argo_02) recur structurally in the post-bereavement losses of 2022 (undersold flat, failed reconciliation with Julian, displacement in argo_14).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ia15",
+        "source": "argo_07",
+        "target": "argo_28",
+        "type": "CONTRADICTS",
+        "justification": "Clara's inaugural promise to lead Argo across wide, unknown horizons and surpass Odysseus (argo_07) stands in sharp contradiction with her present guilt over confining him to a long lead as a humanized house-dog (argo_28).",
+        "created_by": "manual",
+        "weight": 0.6
+      }
+    ],
+
+    "space_B": [
+      {
+        "id": "ib01",
+        "source": "freud_01",
+        "target": "freud_04",
+        "type": "PRECEDES",
+        "justification": "Freud's inaugural definition of mourning and melancholia as divergent responses to loss (freud_01) prepares the decisive structural distinction between an impoverished world and an impoverished ego (freud_04).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib02",
+        "source": "freud_04",
+        "target": "freud_10",
+        "type": "PRECEDES",
+        "justification": "Distinguishing ego-impoverishment from world-impoverishment (freud_04) requires explaining the metapsychological mechanism behind ego depletion: narcissistic identification whereby 'the shadow of the object fell upon the ego' (freud_10).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib03",
+        "source": "freud_05",
+        "target": "freud_06",
+        "type": "PRECEDES",
+        "justification": "Piecemeal withdrawal of libido under reality-testing (freud_05) leads to the classical outcome of completed mourning: an ego that is 'free and uninhibited again' (freud_06).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib04",
+        "source": "freud_07",
+        "target": "freud_08",
+        "type": "PRECEDES",
+        "justification": "Unconscious object-loss—knowing whom one lost, but not what was lost in them (freud_07)—drives the enigmatic lowering of self-regard and retroactive self-reproach characteristic of melancholia (freud_08).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib05",
+        "source": "freud_09",
+        "target": "freud_10",
+        "type": "PRECEDES",
+        "justification": "Clinical observation that self-reproaches are transposed accusations against a loved object (freud_09) is explained structurally by narcissistic identification with the abandoned object (freud_10).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib06",
+        "source": "freud_10",
+        "target": "freud_11",
+        "type": "PRECEDES",
+        "justification": "Introjection of the abandoned object into the ego (freud_10) transforms external relational conflict into an internal cleavage between the ego's critical agency and the ego altered by identification (freud_11).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib07",
+        "source": "freud_13",
+        "target": "freud_14",
+        "type": "PRECEDES",
+        "justification": "Ambivalence as a precondition of melancholia (freud_13) unleashes retroflected sadism (freud_14): while love retreats into identification, hate attacks the substitutive introjected object.",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib08",
+        "source": "freud_14",
+        "target": "freud_15",
+        "type": "PRECEDES",
+        "justification": "Sadistic self-torment (freud_14) reaches its extreme limit in melancholic suicide, where the ego treats itself as the hated, overpowering object (freud_15).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ib09",
+        "source": "freud_04",
+        "target": "freud_07",
+        "type": "ILLUSTRATES",
+        "justification": "Specifies the structural contrast between world-impoverishment and ego-impoverishment (freud_04) in epistemic terms: conscious loss in mourning versus unconscious dimension of loss in melancholia (freud_07).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ib10",
+        "source": "freud_06",
+        "target": "freud_16",
+        "type": "NUANCES",
+        "justification": "While completed mourning leaves the ego free (freud_06), Freud nuances that melancholia too can pass off after time has elapsed, even though it behaves economically like an 'open wound' (freud_16).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ib11",
+        "source": "theory_05",
+        "target": "theory_06",
+        "type": "PRECEDES",
+        "justification": "Winnicott's living transitional object (theory_05) and Kohut's selfobject (theory_06) form a developmental-metapsychological progression from sensorimotor anxiety buffering to structural self-cohesion.",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ib12",
+        "source": "theory_06",
+        "target": "theory_07",
+        "type": "ILLUSTRATES",
+        "justification": "Bowlby's secure base and safe haven (theory_07) substantiate from evolutionary attachment theory the stabilizing functions Kohut describes intrapsychically via the selfobject (theory_06).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ib13",
+        "source": "theory_11",
+        "target": "theory_12",
+        "type": "PRECEDES",
+        "justification": "Social non-recognition in disenfranchised grief (theory_11) produces secondary neurotic guilt, public shame, and obstructed mourning (theory_12).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib14",
+        "source": "theory_08",
+        "target": "theory_09",
+        "type": "PRECEDES",
+        "justification": "Because genuine bereavement opens a hole in the Real tearing the Imaginary register (theory_08), the lost relational anchor is strictly non-substitutable and non-fungible (theory_09).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib15",
+        "source": "theory_02",
+        "target": "theory_03",
+        "type": "CONTRADICTS",
+        "justification": "Freud's thesis of pure, unambivalent affection toward dogs (theory_02) is directly contradicted by Marie Bonaparte's demonstration of irreducible ambivalence and narcissistic control in animal guardianship (theory_03).",
+        "created_by": "manual",
+        "weight": 0.6
+      },
+      {
+        "id": "ib16",
+        "source": "theory_15",
+        "target": "theory_16",
+        "type": "PRECEDES",
+        "justification": "Establishing adaptive continuing bonds through internalization (theory_15) relies operationally on Symbolic rituals and thresholds capable of bordering loss (theory_16).",
+        "created_by": "manual",
+        "weight": 1.0
+      },
+      {
+        "id": "ib17",
+        "source": "theory_12",
+        "target": "theory_13",
+        "type": "PRECEDES",
+        "justification": "When disenfranchisement blocks symbolic mourning work (theory_12), unelaborated distress is inscribed somatically as autonomic hyperarousal, insomnia, and loss of appetite (theory_13).",
+        "created_by": "manual",
+        "weight": 0.6
+      }
+    ]
+  }
+}

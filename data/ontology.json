@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "project": "HermeneuticGraphRAG",
+    "version": "0.2",
+    "date": "2026-11-19",
+    "description": "Single source of truth for the project's epistemic ontology. Defines spaces, tags, relation types, metadata fields, weight mappings, and the central working hypothesis referenced across nodes.json, nodes_freud.json, nodes_theory.json, edges.json, and edges_intra.json.",
+    "note": "All tags and relation types are declared exclusively here. Individual node files must adhere strictly to this schema."
+  },
+
+  "spaces": {
+    "space_A": {
+      "name": "Clinical Vignette (Primary Material)",
+      "document": "argo-and-i",
+      "description": "Material under interpretation: lived events, symptoms, affects, personal interpretations, and objective environmental conditions from the synthetic clinical narrative.",
+      "vectorized": true
+    },
+    "space_B": {
+      "name": "Theoretical Corpus (Interpretive Lens)",
+      "documents": [
+        "mourning-and-melancholia",
+        "psychoanalysis-mourning-companion-animals"
+      ],
+      "description": "Bounded conceptual and metapsychological frameworks used as the epistemic horizon to read Space A.",
+      "vectorized": true
+    }
+  },
+
+  "tags": {
+    "space_A": [
+      {
+        "id": "MOURNING_WALTER",
+        "description": "Passages concerning Walter's frailty, caregiving, death, and subsequent bereavement.",
+        "applies_to_docs": ["argo-and-i"],
+        "used_by_nodes": ["argo_01", "argo_02", "argo_09", "argo_11", "argo_12", "argo_13", "argo_14", "argo_26"]
+      },
+      {
+        "id": "SYMPTOM_SOLILOQUY",
+        "description": "The symptom of compulsive self-talk/muttering: onset in domestic confinement, spillover into public streets, shame, and subsequent regulation through Argo.",
+        "applies_to_docs": ["argo-and-i"],
+        "used_by_nodes": ["argo_03", "argo_04", "argo_05", "argo_27"]
+      },
+      {
+        "id": "ARGO_FUNCTION",
+        "description": "Passages where Argo performs an explicit psychic or relational function for Clara: companionship, nocturnal alerting, co-regulation, presence at Walter's deathbed, and support in ongoing grief.",
+        "applies_to_docs": ["argo-and-i"],
+        "used_by_nodes": ["argo_05", "argo_06", "argo_07", "argo_08", "argo_09", "argo_10", "argo_11", "argo_13", "argo_16", "argo_17", "argo_24", "argo_26", "argo_27"]
+      },
+      {
+        "id": "FEAR_LOSING_ARGO",
+        "description": "Anticipatory dread regarding the potential loss of Argo, combining symbolic bereavement anxiety and concrete rural hazards.",
+        "applies_to_docs": ["argo-and-i"],
+        "used_by_nodes": ["argo_20", "argo_21", "argo_23"]
+      },
+      {
+        "id": "FREEDOM_PROTECTION_TENSION",
+        "description": "The ethical and psychic conflict between tethering Argo for safety and allowing him canine autonomy, including Clara's doubt over whose need the restriction truly serves.",
+        "applies_to_docs": ["argo-and-i"],
+        "used_by_nodes": ["argo_07", "argo_22", "argo_23", "argo_25", "argo_28"]
+      },
+      {
+        "id": "SELF_DEFINITION",
+        "description": "Passages where Clara reflects on her own subjective state, affects, life trajectory, and the meaning she attributes to events rather than merely recounting facts.",
+        "applies_to_docs": ["argo-and-i"],
+        "used_by_nodes": ["argo_02", "argo_07", "argo_10", "argo_14", "argo_15", "argo_21", "argo_25", "argo_26", "argo_27", "argo_28"]
+      },
+      {
+        "id": "RISK_CONTEXT",
+        "description": "Objective environmental hazards on the moor: poisoned baits, poultry feuds, adders, roaming intact dogs. Crucial for distinguishing realistic caution from neurotic projection.",
+        "applies_to_docs": ["argo-and-i"],
+        "used_by_nodes": ["argo_17", "argo_18", "argo_19", "argo_20", "argo_22", "argo_24", "argo_25"]
+      }
+    ],
+
+    "space_B": [
+      {
+        "id": "CONCEPT_MOURNING",
+        "description": "Definitions and mechanisms of normal mourning: reality-testing, piecemeal withdrawal of libido (decathexis), work of mourning, continuing bonds, and symbolic rituals.",
+        "applies_to_docs": ["mourning-and-melancholia", "psychoanalysis-mourning-companion-animals"],
+        "used_by_nodes": ["freud_01", "freud_02", "freud_04", "freud_05", "freud_06", "freud_16", "freud_18", "theory_04", "theory_07", "theory_08", "theory_09", "theory_12", "theory_15", "theory_16", "theory_18", "theory_19"]
+      },
+      {
+        "id": "CONCEPT_MELANCHOLIA",
+        "description": "Clinical and metapsychological features of melancholia: impoverishment of the ego, unconscious aspect of the loss, self-reproach, and narcissistic identification.",
+        "applies_to_docs": ["mourning-and-melancholia"],
+        "used_by_nodes": ["freud_01", "freud_03", "freud_04", "freud_07", "freud_08", "freud_09", "freud_10", "freud_11", "freud_13", "freud_14", "freud_15", "freud_16", "freud_17", "freud_18"]
+      },
+      {
+        "id": "CONCEPT_OBJECT",
+        "description": "Object-relations and metapsychological object theory: lost love-object, libidinal cathexis, living transitional object (Winnicott), selfobject (Kohut), and Lacanian object-lack.",
+        "applies_to_docs": ["mourning-and-melancholia", "psychoanalysis-mourning-companion-animals"],
+        "used_by_nodes": ["freud_05", "freud_06", "freud_07", "freud_10", "freud_12", "theory_04", "theory_05", "theory_06", "theory_15", "theory_20"]
+      },
+      {
+        "id": "CONCEPT_ANXIETY",
+        "description": "Signal anxiety before threatened loss, anticipatory grief, and the Lacanian tear or hole in the Real.",
+        "applies_to_docs": ["psychoanalysis-mourning-companion-animals"],
+        "used_by_nodes": ["theory_08", "theory_20"],
+        "note": "Absent in Freud's 1917 essay; introduced exclusively via the complementary theoretical synthesis."
+      },
+      {
+        "id": "CONCEPT_AMBIVALENCE",
+        "description": "Coexistence of love and hate toward the same object: precondition for melancholia in Freud, and irreducible even in human-animal attachment according to Marie Bonaparte.",
+        "applies_to_docs": ["mourning-and-melancholia", "psychoanalysis-mourning-companion-animals"],
+        "used_by_nodes": ["freud_09", "freud_13", "freud_14", "freud_18", "theory_02", "theory_03"]
+      },
+      {
+        "id": "CONCEPT_IDENTIFICATION",
+        "description": "Introjection of the abandoned object into the ego ('the shadow of the object fell upon the ego'); core mechanism of Freudian melancholia.",
+        "applies_to_docs": ["mourning-and-melancholia"],
+        "used_by_nodes": ["freud_09", "freud_10", "freud_11", "freud_12", "freud_14", "freud_15"],
+        "note": "Exclusive to the classical Freudian framework in this corpus."
+      },
+      {
+        "id": "CONCEPT_ANIMAL_BOND",
+        "description": "Specificity of the human-animal bond: anthrozoology, psychic economy of companion animals, somatic co-regulation, and multispecies kinship.",
+        "applies_to_docs": ["psychoanalysis-mourning-companion-animals"],
+        "used_by_nodes": ["theory_01", "theory_02", "theory_03", "theory_04", "theory_05", "theory_06", "theory_07", "theory_08", "theory_09", "theory_10", "theory_13", "theory_14", "theory_18", "theory_19", "theory_20"],
+        "note": "Specific to the complementary theoretical corpus."
+      },
+      {
+        "id": "CONCEPT_DISENFRANCHISED_GRIEF",
+        "description": "Socially unacknowledged bereavement (Doka): dissonance between internal devastation and external demands for normalcy, producing shame, isolation, and blocked mourning.",
+        "applies_to_docs": ["psychoanalysis-mourning-companion-animals"],
+        "used_by_nodes": ["theory_01", "theory_09", "theory_11", "theory_12", "theory_13", "theory_16", "theory_17"]
+      },
+      {
+        "id": "CONCEPT_INTERVENTION",
+        "description": "Clinical and therapeutic approaches to bereavement and companion-animal loss: validation, guilt deconstruction, narrative reconstruction, and memorial rituals.",
+        "applies_to_docs": ["psychoanalysis-mourning-companion-animals"],
+        "used_by_nodes": ["theory_17"],
+        "note": "Minimal usage in v0.2; serves as optional clinical orientation rather than a primary diagnostic node."
+      }
+    ],
+
+    "unused_tags": [
+      {
+        "id": "HYPOTHESIS",
+        "reason": "Reserved for future iterations in which the researcher's own interpretive hypotheses are instantiated as first-class graph nodes.",
+        "status": "reserved"
+      }
+    ]
+  },
+
+  "relation_types": {
+    "description": "Directed edge types used across edges.json and edges_intra.json. Each relation carries a distinct epistemic function governing retrieval and LLM synthesis.",
+    "types": [
+      {
+        "id": "ILLUSTRATES",
+        "description": "A clinical node exemplifies or embodies a theoretical concept (or parallels an earlier clinical pattern). Instantiation relation.",
+        "epistemic_type": "knowledge",
+        "propagate_embeddings": true,
+        "default_weight": 0.6
+      },
+      {
+        "id": "APPLIES_CONCEPT",
+        "description": "A theoretical concept serves directly as an interpretive tool explaining the clinical passage.",
+        "epistemic_type": "knowledge",
+        "propagate_embeddings": true,
+        "default_weight": 1.0
+      },
+      {
+        "id": "CONTRADICTS",
+        "description": "A node stands in tension with, refutes, or resists another clinical statement or theoretical claim. Adversative relation.",
+        "epistemic_type": "knowledge",
+        "propagate_embeddings": true,
+        "default_weight": 0.8
+      },
+      {
+        "id": "NUANCES",
+        "description": "A node introduces an exception, boundary condition, or added complexity to a theoretical or narrative claim.",
+        "epistemic_type": "knowledge",
+        "propagate_embeddings": true,
+        "default_weight": 0.6
+      },
+      {
+        "id": "OPENS_QUESTION",
+        "description": "A clinical passage raises an interpretive question that the theoretical node leaves unresolved or answers only partially.",
+        "epistemic_type": "hermeneutic",
+        "propagate_embeddings": false,
+        "default_weight": 0.3,
+        "special_handling": "Hermeneutic rather than assertive relation. During generation, the LLM must articulate and sustain the open tension as a genuine inquiry rather than forcing diagnostic closure."
+      },
+      {
+        "id": "PRECEDES",
+        "description": "Causal, temporal, or logical-argumentative progression strictly within the same space (clinical-to-clinical in Space A, or concept-to-concept in Space B).",
+        "epistemic_type": "narrative_logical",
+        "propagate_embeddings": true,
+        "default_weight": 1.0
+      }
+    ]
+  },
+
+  "metadata_fields": {
+    "description": "Schema for node metadata, specifying which fields are embedded into dense vectors versus reserved for structured graph traversal.",
+    "fields": [
+      {
+        "field": "text",
+        "vectorized": true,
+        "description": "Primary textual passage of the node."
+      },
+      {
+        "field": "tags",
+        "vectorized": false,
+        "description": "Controlled ontology labels used for filtering and structural analysis."
+      },
+      {
+        "field": "status",
+        "vectorized": false,
+        "description": "Epistemic status of the chunk: event_account, observation, memory, personal_interpretation, open_question, definition, theoretical_claim, mechanism_description, conceptual_distinction, clinical_description, theoretical_conclusion, synthesis, theoretical_revision, clinical_proposal, historical_reference."
+      },
+      {
+        "field": "argumentative_function",
+        "vectorized": false,
+        "description": "Rhetorical/logical role in Space B: define, contextualize, explain, describe, contrast, distinguish, argue, synthesize, propose, expand, question, legitimize, establish_condition, illustrate."
+      },
+      {
+        "field": "notes",
+        "vectorized": true,
+        "description": "Researcher's analytical reading of the node: why it matters, what tensions it opens, and how it relates to the working hypothesis. Intentionally concatenated during embedding to steer semantic retrieval toward argumentatively salient passages.",
+        "epistemic_warning": "Vectorizing researcher notes deliberately biases retrieval toward a situated reading; it is a hermeneutic choice, not a neutral index."
+      }
+    ],
+    "weight_map": {
+      "high": 1.0,
+      "medium": 0.6,
+      "low": 0.3
+    }
+  },
+
+  "intra_space_edges": {
+    "description": "Intra-space edges within Space A (narrative causality and internal tensions) and Space B (conceptual derivations and inter-theoretical debates). Implemented in edges_intra.json to enable multi-hop reasoning.",
+    "status": "implemented"
+  },
+
+  "central_hypothesis": {
+    "statement": "The clinical material is more rigorously understood as an ongoing mourning process in which Argo performs an affective and symbolic mediating function, rather than as sufficient evidence of a melancholic organization in the strict Freudian sense.",
+    "status": "working_hypothesis",
+    "instruction": "Treat this statement as a working hypothesis to be tested against the graph: gather supporting evidence, surface complicating passages, and weigh rival theoretical readings without forcing premature diagnostic closure."
+  }
+}
